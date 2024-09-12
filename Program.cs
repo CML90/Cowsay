@@ -36,7 +36,7 @@ class CowStart
             InputReceived?.Invoke(null, new InputEventArgs(response));
         }
 
-        //change this into the effect of the event        
+        //event handler     
         static public void Say(object? sender, InputEventArgs e)
         {
             try
