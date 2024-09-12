@@ -1,0 +1,15 @@
+/home/caitml/consoleApp/Cowsay/bin/Debug/net8.0/Cowsay
+/home/caitml/consoleApp/Cowsay/bin/Debug/net8.0/Cowsay.deps.json
+/home/caitml/consoleApp/Cowsay/bin/Debug/net8.0/Cowsay.runtimeconfig.json
+/home/caitml/consoleApp/Cowsay/bin/Debug/net8.0/Cowsay.dll
+/home/caitml/consoleApp/Cowsay/bin/Debug/net8.0/Cowsay.pdb
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/Cowsay.GeneratedMSBuildEditorConfig.editorconfig
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/Cowsay.AssemblyInfoInputs.cache
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/Cowsay.AssemblyInfo.cs
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/Cowsay.csproj.CoreCompileInputs.cache
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/Cowsay.sourcelink.json
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/Cowsay.dll
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/refint/Cowsay.dll
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/Cowsay.pdb
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/Cowsay.genruntimeconfig.cache
+/home/caitml/consoleApp/Cowsay/obj/Debug/net8.0/ref/Cowsay.dll
