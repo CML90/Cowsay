@@ -47,15 +47,26 @@ class CowStart
                 myProcess.StartInfo.UseShellExecute = false;
                 //Enable stdio redirection
                 myProcess.StartInfo.RedirectStandardInput = true;
+                myProcess.StartInfo.RedirectStandardOutput = true;
+                myProcess.StartInfo.RedirectStandardError = true;
 
                 //set path and start cowsay
                 myProcess.StartInfo.FileName = "/usr/games/cowsay";
                 myProcess.Start();
 
                 //Implements a TextWriter for writing chars to a stream = stdio
-                StreamWriter myStreamWriter = myProcess.StandardInput;
-                //Write to the cowsay app
-                myStreamWriter.WriteLine(e.UserInput);
+                using (StreamWriter myStreamWriter = myProcess.StandardInput)
+                {
+                    //Write to the cowsay app
+                    myStreamWriter.WriteLine(e.UserInput);
+                }//dispose of myStreamWriter so it doesnt keep waiting for input
+
+                myProcess.BeginErrorReadLine();
+                string output = myProcess.StandardOutput.ReadToEnd();  
+                Console.WriteLine(output);
+                
+                myProcess.WaitForExit();
+                
                 }
             }
             catch (Exception ex)
